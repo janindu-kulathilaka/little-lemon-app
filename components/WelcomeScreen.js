@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 
 export default function WelcomeScreen() {
-  const colorScheme = useColorScheme();
+  const colorScheme = 'dark';
   return (
     <View
       style={[
@@ -54,12 +54,12 @@ export default function WelcomeScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 0.7,
+    flex: 1,
     alignItems: 'center',
-    marginTop: 40,
   },
   containerLogo: {
     flex: 0.7,
+    marginTop: 40,
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'row',

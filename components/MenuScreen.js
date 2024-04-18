@@ -53,7 +53,7 @@ const Item = ({ name, price }) => (
   </View>
 );
 
-const MenuItems = () => {
+const MenuScreen = () => {
   const renderItem = ({ item }) => <Item name={item.name} price={item.price} />;
 
   const renderSectionHeader = ({ section: { title } }) => (
@@ -99,4 +99,4 @@ const menuStyles = StyleSheet.create({
   },
 });
 
-export default MenuItems;
+export default MenuScreen;
