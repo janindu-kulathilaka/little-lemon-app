@@ -10,10 +10,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       <LittleLemonHeader />
-      {/* <WelcomeScreen /> */}
+      <WelcomeScreen />
       {/* <SectionList /> */}
       {/* <InputText /> */}
-      <LoginPage />
+      {/* <LoginPage /> */}
       <LittleLemonFooter />
     </View>
   );
@@ -22,6 +22,5 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#333333',
   },
 });
